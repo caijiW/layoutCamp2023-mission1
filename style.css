@@ -1,0 +1,63 @@
+.w-30{
+    width: 30%;
+}
+
+.px-32{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.rounded-16{
+    border-radius: 16px;
+}
+
+/* --------------方法1----------------- */
+/* .card{
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body>div{
+    flex-grow: 1;
+} */
+
+
+/* ---------------------------------- */
+
+/* ------方法2----- */
+.aiTool-item{
+    display: flex;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body>div{
+    flex-grow:1;
+}
+
+@media screen and (max-width:768px) {
+   .w-30{
+    width: 100%;
+   }
+
+   .aiTool-item{
+    flex-direction: column;
+   }
+}
+/* ------------------- */

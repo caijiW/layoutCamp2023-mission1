@@ -1,0 +1,17 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+ul,li{
+    list-style: none;
+}
